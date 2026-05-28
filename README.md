@@ -2,7 +2,6 @@
 
 Primo progetto del corso **Algoritmi e Strutture Dati** — Università di Trento, A.A. 2023/2024.
 
-> ⚠️ Repository **privata**. La condivisione pubblica del codice è espressamente vietata dal regolamento del corso.
 
 ---
 

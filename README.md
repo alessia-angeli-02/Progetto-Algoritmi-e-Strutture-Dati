@@ -35,7 +35,7 @@ Con questi due array si costruisce la funzione `ComparaIntervalli`, che determin
 ## Struttura del codice
 
 ```
-sol-70-bfs-compare.cpp
+soluzione.cpp
 │
 ├── bfs(...)              # Visita del grafo: calcola min_dist, min_dist_safe e il percorso minimo
 ├── ComparaIntervalli(...) # Confronta i due array e restituisce il massimo K valido
@@ -54,10 +54,10 @@ sol-70-bfs-compare.cpp
 
 ```bash
 # Compilazione
-g++ -O2 -o barbie sol-70-bfs-compare.cpp
+g++ -O2 -o barbie soluzione.cpp
 
 # Esecuzione con file I/O (modalità EVAL)
-g++ -O2 -DEVAL -o barbie sol-70-bfs-compare.cpp
+g++ -O2 -DEVAL -o barbie soluzione.cpp
 ./barbie   # legge da input.txt, scrive su output.txt
 
 # Esecuzione con stdin/stdout
@@ -105,16 +105,3 @@ n1 n2 ... nR ← (facoltativo) nodi del percorso, in ordine
 - Grafo indiretto, connesso, senza self-loop né archi doppi
 - Barbieland (`0`) e Algoritmia (`C-1`) non sono mai occupate
 - Limite: 1 secondo, 16 MB di memoria
-
----
-
-## Punteggio ottenuto
-
-| Casi | Descrizione |
-|---|---|
-| 6/20 | Tutti gli archi con lo stesso peso |
-| 4/20 | Nessuna o tutte le città occupate |
-| 4/20 | Percorsi da B ad A tutti disgiunti |
-| 6/20 | Casi generali senza limitazioni |
-
-Punteggio massimo: 100 punti (5 per caso completo, 3 per solo parte obbligatoria). Sufficienza: 30 punti.
